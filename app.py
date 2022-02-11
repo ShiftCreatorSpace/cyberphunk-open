@@ -33,7 +33,6 @@ def cpanel():
     token = request.cookies.get('jwt')
 
     if token is not None:
-        # [6:] to account for "Bearer "
         auth = jwt.decode(token, app.config['JWT_SECRET_KEY'], algorithms=['HS256'])
 
         if auth['role'] == 'overlord':
