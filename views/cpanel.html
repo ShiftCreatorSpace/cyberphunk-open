@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="mainContainer blackBg">
+            <div class="controlPanel">
+                <h1>Control panel</h1>
+                <div style="display: flex; flex-direction: row;">
+                    <div>
+                        <p style="margin-top: 0;">Stop attack</p>
+                        <form action="/stopEndOfWorld" method="POST">
+                            <input class="fancyInput" placeholder="Password" name="code" type="text">
+                            <input type="submit" value="Submit" style="display: none;">
+                        </form>
+                    </div>
+                    <img 
+                        src="../public/assets/importantBtn.png"
+                        alt="" 
+                        style="max-width: 100px; max-height: 100px; cursor: pointer; margin-left: 2rem;"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <script>
+        </script>
+
+    </body>
+</html>

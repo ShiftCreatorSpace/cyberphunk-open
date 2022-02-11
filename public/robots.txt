@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cpanel
+
+User-agent: *
+Disallow: /day_724_entry.txt
